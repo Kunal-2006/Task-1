@@ -7,19 +7,19 @@
 #### 4. My Approach
 #### 5. Resources Used
 #### 6. Task Solutions
-  ##### 7. Light Dose
-    1. Question 1
-    2. Question 2
-  ##### 8. Medium Dose
-    1. Question 1
-    2. Question 2
-    3. Question 3
-    4. Question 4
-    5. Question 5
-  ##### 9. Hard Dose
-    1.Question 1
-    2.Question 2
-    3.Question 3
+#### 1. Light Dose
+  1. Question 1
+  2. Question 2
+ #### 2. Medium Dose
+  1. Question 1
+  2. Question 2
+  3. Question 3
+  4. Question 4
+  5. Question 5
+  #### 3. Hard Dose
+  1. Question 1
+  2. Question 2
+  3. Question 3
 
 ## Learning Experience-->
 ## Theorams,Equations,Sketches used for solving the problems-->
