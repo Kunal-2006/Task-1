@@ -20,7 +20,7 @@
      
   5. Question 4
     
-    //
+    
        file = open("log.txt", "r")
       data = []
       for line in file:
