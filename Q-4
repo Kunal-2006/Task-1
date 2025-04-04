@@ -3,8 +3,7 @@ data = []
 for line in file:
   if line.strip():
     data.append(float(line.strip()))
-    file.close()
-*Muchiko filter = Moving Average of 3 values*
+file.close()
 def muchiko(data):
     result = []
     n = len(data)
@@ -16,7 +15,7 @@ def muchiko(data):
     result.append(avg)
     return result
 
-Sanchiko filter = Median of 3 values
+
 def sanchiko(data):
   result = []
   n = len(data)
@@ -30,11 +29,11 @@ def sanchiko(data):
     result.append(median)
 return result
 
-//Apply filters
+Apply filters
 muchiko_filter = muchiko(data)
 sanchiko_filter = sanchiko(data)
 
-//Print individual filter results
+Print individual filter results
 print("Muchiko Filter:")
 for d in muchiko_filter:
   print(d)
