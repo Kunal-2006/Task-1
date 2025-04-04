@@ -9,11 +9,14 @@
 #### 6. Task Solutions
 #### 1. Light Dose
   1. Question 1
+     Used Linux Terminal commands by which the desired output was found.
   2. Question 2
+     Used Bash coding for coding the required and desired commands. 
  #### 2. Medium Dose
   1. Question 1
-  2. Question 2
-  3. Question 3
+      
+  3. Question 2
+  4. Question 3
      
   5. Question 4
     
