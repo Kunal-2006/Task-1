@@ -1,4 +1,4 @@
-file = open("log.txt", "r")
+file = open("log.txt", "r") #Opening the file
 data = []
 for line in file:
   if line.strip():
