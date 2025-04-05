@@ -11,7 +11,7 @@
   I had a very good experience solving the task 1 for me though it was very challenging at the start but with time and logic it became easy leaving some questions.
   I have learnt a lot of new things and also gained some new perspectives. Doing the task 0 and task 1 was a lot fun by these tasks I again relearnt python which     i had forgotten since I learned when I was in 11-12th std.
 ## Theorams,Equations,Sketches used for solving the problems-->
-## Medium Dose Task 5: Quaternion Conversion
+Medium Dose Task 5: Quaternion Conversion
 Converts Earth’s Euler angles (yaw, pitch, roll) to Martian quaternions for Rover Brick.
 
 4. **Quaternion Components**  
