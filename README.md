@@ -74,7 +74,10 @@
       3. Step 3
            Use Canny Edge detector to find the contour the shpaes similar to required arrow shape and apply the polygon with 7 sided since the arrow contains of 7 vertices and then if found an 7 vertice polygon assume it to be an arrow and create an bounding rectangle arounfd it .
       4. Step 4
-            Now by distance function we want to calculate its distance from the camera so for that we must first now the focal length formula and also the distance formula for that we will be entering the width of the arrow in the photo ad actualwidth_px and save the 17cm as real
-  4. Question 3
+            Now by distance function we want to calculate its distance from the camera so for that we must first now the focal length formula and also the distance formula for that we will be entering the width of the arrow in the photo ad actualwidth_px and save the 17cm as real arrow width and also make the FOV as 55 degree.
+       5. Step 5
+              By using the formulas of Diagonal resolution ,focal length find the distance formula but first convert all the angle which is degree to radian by using math 
+  3. Question 3
+     
 
 
