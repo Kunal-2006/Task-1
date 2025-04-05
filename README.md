@@ -29,13 +29,13 @@
  #### 2. Medium Dose
   1. Question 1
        
-  3. Question 2
+  2. Question 2
              Here in this question we have used python to solve the program by first creating an dictionary of the all the               morse code alphabets where the key in morse code alphabets and item is the english alphabets.
-     Step-1 So we have an file named as Morse.txt which will be opening and for the data in the file we first read the                  whole code and also strip the spaces which occur between the characters.
-     Step-2 We will now first close the file since saved all the data and then split the data in words by split function                 and then with help of split function to split the letters from each other.
-     Step-3 With the help of the for loop we will take the item according to the morse code key and append th english                   alphabet into a empty list and that is th final code needed.
+     1.Step-1 So we have an file named as Morse.txt which will be opening and for the data in the file we first read the                  whole code and also strip the spaces which occur between the characters.
+     2.Step-2 We will now first close the file since saved all the data and then split the data in words by split function                 and then with help of split function to split the letters from each other.
+     3.Step-3 With the help of the for loop we will take the item according to the morse code key and append th english                   alphabet into a empty list and that is th final code needed.
      
-  4. Question 3
+  3. Question 3
            Here in this question I have used Pyhton to solve the problem statement created an string where the data is present and also a new list where all the data will be stored.
      1. Step-1
          using for loop we see each index of the string and and shift the value by first gettting ascii value and then               decreasing the value bu there might be a chance A might be decreased by 1 so we use the second loop to change           the index of ascii and then when subtraction is done intended result is accomplished.
@@ -54,13 +54,13 @@
           5. Step-5
              We can  create one more hybrid where first we can take the medians by arranging the numbers and then finsing the median and after finding the median the avg is found directly this is called Muchiko sanchiiko Hybrid.
      Out of these Sanchiko(muchiko filter is the best hybrid since it gives best balance of spike protection and smoothing.
-  6. Question 5
+  5. Question 5
          Here in the problem statement again pyhton programming language is used where
-     Step-1
+     1.Step-1
        The values of yaw,ptch,roll are taken from the user who has used the function from where first the angle is converted to radians.
-     Step-2
+     2.Step-2
        We will find the variables values needed foe the quaternion formula.
-     Step-3
+     3.Step-3
        We will find the values of w,x,y,z the 4 axis system has been calculated by the operation of the                 variables.
      
       
