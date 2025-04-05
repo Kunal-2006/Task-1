@@ -36,7 +36,11 @@
      Step-3 With the help of the for loop we will take the item according to the morse code key and append th english                   alphabet into a empty list and that is th final code needed.
      
   4. Question 3
-           Here in this question I have used Pyhton to solve the problem statement created an list where the data is present which has to be 
+           Here in this question I have used Pyhton to solve the problem statement created an string where the data is present and also a new list where all the data will be stored.
+     Step-1
+         using for loop we see each index of the string and and shift the value by first gettting ascii value and then               decreasing the value bu there might be a chance A might be decreased by 1 so we use the second loop to change           the index of ascii and then when subtraction is done intended result is accomplished.
+     Step-2
+         The data is is then appended in the list new.
   6. Question 4
   7. Question 5   
   #### 3. Hard Dose
