@@ -37,21 +37,21 @@
      
   4. Question 3
            Here in this question I have used Pyhton to solve the problem statement created an string where the data is present and also a new list where all the data will be stored.
-     Step-1
+     1. Step-1
          using for loop we see each index of the string and and shift the value by first gettting ascii value and then               decreasing the value bu there might be a chance A might be decreased by 1 so we use the second loop to change           the index of ascii and then when subtraction is done intended result is accomplished.
-     Step-2
+     2. Step-2
          The data is is then appended in the list new.
   4. Question 4
          Here in the problem statement we have again used Pyhton programming language.
-       Step-1
+       1. Step-1
          first we will open log.txt as said in the question using r mode which is the read mode and create an empty list data where we will again like earlier strip the file to remove the sapces adn then store all data of the log.txt in data list.
-        Step-2
+        2. Step-2
           We will now define Muchiko who just finds the avg of data in the list data and append the avg in result list which is created before.
-         Step-3
+         3. Step-3
            We will now define Sanchiko who takes data and then sorts the data according to the numerical order then find the median of the 3 values in list and prints the value.
-          Step-4
+          4. Step-4
             We can create some hybrids like Sanchiko of Muchiko filter whih first find the avg of the values and then finds 3 averages and appends in the list which is when put in to Sanchiko filter where the again the avg list is sorted and now the values are arranged and the median value is given output.
-          Step-5
+          5. Step-5
              We can  create one more hybrid where first we can take the medians by arranging the numbers and then finsing the median and after finding the median the avg is found directly this is called Muchiko sanchiiko Hybrid.
      Out of these Sanchiko(muchiko filter is the best hybrid since it gives best balance of spike protection and smoothing.
   6. Question 5
