@@ -1,1 +1,22 @@
+#!/bin/bash
+
+LOG_FILE="system_check.log"
+echo "----- $(date) -----" >> "$LOG_FILE"
+
+battery_level=$((RANDOM % 101))//random bater 0-100
+echo "Battery Level: $battery_level%" >> "$LOG_FILE"//current batery level
+
+if [ "$battery_level" -lt 20 ]; then// if battery less than 20
+  echo "Battery low! Return to base!" | tee -a "$LOG_FILE"// return base and log out from the file
+  exit 1
+fi
+
+ping -c 2 google.com &> /dev/null// check ping
+
+if [ $? -ne 0 ]; then// to check if communication is working
+  echo "Communication failure!" | tee -a "$LOG_FILE"
+  exit 1
+fi
+
+echo "All systems operational!" | tee -a "$LOG_FILE"
 
