@@ -41,8 +41,18 @@
          using for loop we see each index of the string and and shift the value by first gettting ascii value and then               decreasing the value bu there might be a chance A might be decreased by 1 so we use the second loop to change           the index of ascii and then when subtraction is done intended result is accomplished.
      Step-2
          The data is is then appended in the list new.
-  6. Question 4
-  7. Question 5   
+  4. Question 4
+         Here in the problem statement we have again used Pyhton programming language.
+  5. Question 5
+         Here in the problem statement again pyhton programming language is used where
+     Step-1
+       The values of yaw,ptch,roll are taken from the user who has used the function from where first the angle is converted to radians.
+     Step-2
+       We will find the variables values needed foe the quaternion formula.
+     Step-3
+       We will find the values of w,x,y,z the 4 axis system has been calculated by the operation of the                 variables.
+     
+      
   #### 3. Hard Dose
   1. Question 1
   2. Question 2
