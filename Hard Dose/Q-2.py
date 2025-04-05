@@ -43,15 +43,15 @@ def distance(actualwidth_px):
     FOV_degree = 55  # Field of View of the camera in degrees
 
     # Diagonal resolution of the image
-    diagonal_reso_px = math.sqrt(img_width_px**2 + img_height_px**2)
+    diagonal_reso_px = math.sqrt(img_width_px**2 + img_height_px**2) #fromula for diogonal resolution
 
     # Focal length in pixels using pinhole camera model
-    focal_px = diagonal_reso_px / (2 * math.tan(math.radians(FOV_degree) / 2))
+    focal_px = diagonal_reso_px / (2 * math.tan(math.radians(FOV_degree) / 2))#formula for focal length in pixels
 
     # Distance estimation formula
-    distance_cm = (real_arrow_width_cm * focal_px) / actualwidth_px
+    distance_cm = (real_arrow_width_cm * focal_px) / actualwidth_px#final formula to find the distance between the object and mirror
     return distance_cm
 
 # Provide the path to your image
 image_path = 'arrow.jpg'
-detect_arrow(image_path)
+detect_arrow(image_path)#to provide the image to run code
