@@ -31,9 +31,9 @@
        
   2. Question 2
              Here in this question we have used python to solve the program by first creating an dictionary of the all the               morse code alphabets where the key in morse code alphabets and item is the english alphabets.
-     1.Step-1 So we have an file named as Morse.txt which will be opening and for the data in the file we first read the                  whole code and also strip the spaces which occur between the characters.
-     2.Step-2 We will now first close the file since saved all the data and then split the data in words by split function                 and then with help of split function to split the letters from each other.
-     3.Step-3 With the help of the for loop we will take the item according to the morse code key and append th english                   alphabet into a empty list and that is th final code needed.
+     1. Step-1 So we have an file named as Morse.txt which will be opening and for the data in the file we first read the                  whole code and also strip the spaces which occur between the characters.
+     2. Step-2 We will now first close the file since saved all the data and then split the data in words by split function                 and then with help of split function to split the letters from each other.
+     3. Step-3 With the help of the for loop we will take the item according to the morse code key and append th english                   alphabet into a empty list and that is th final code needed.
      
   3. Question 3
            Here in this question I have used Pyhton to solve the problem statement created an string where the data is present and also a new list where all the data will be stored.
