@@ -56,11 +56,11 @@
      Out of these Sanchiko(muchiko filter is the best hybrid since it gives best balance of spike protection and smoothing.
   5. Question 5
          Here in the problem statement again pyhton programming language is used where
-     1.Step-1
+     1. Step-1
        The values of yaw,ptch,roll are taken from the user who has used the function from where first the angle is converted to radians.
-     2.Step-2
+     2. Step-2
        We will find the variables values needed foe the quaternion formula.
-     3.Step-3
+     3. Step-3
        We will find the values of w,x,y,z the 4 axis system has been calculated by the operation of the                 variables.
      
       
@@ -69,18 +69,4 @@
   2. Question 2
   3. Question 3
 
-## Learning Experience-->
-  I had a very good experience solving the task 1 for me though it was very challenging at the start but with time and logic it became easy leaving some questions.
-  I have learnt a lot of new things and also gained some new perspectives. Doing the task 0 and task 1 was a lot fun by these tasks I again relearnt python which     i had forgotten since I learned when I was in 11-12th std.
-## Theorams,Equations,Sketches used for solving the problems-->
-
-## Challenges Faced-->
-  Initially due to some pc error I couldn't dual boot laptop even after spending nights to do it I couldn't but later somehow I did it.
-    The task 1 light dose I hadn't studied bash or Linux  I had forgotten python and didn't know open cv and how to apply bfs,dijakstra for the navigation       
-    question and also I didn't know GitHub. But with spending time watching videos on these topics reading from blogs and using ai tools to fins the theory on         particular questions it helped me understand these topics and hence I could solve majority questions of the task.
-## Explain your Approach-->
-   My approach was that during the initial days of task 1 I had discussed all questions with my friend which was like a overview and what i did was I would           first explore the links provided in document and see the videos and blogs related to it and see the cheat sheets of Linux and bash for the light dose
-    And finsihed the light dose.Then I started hard dose where what I used to do is like in 1 question I put Grid mapping in youtube  and later I saw videos on        BFS matrix type of questions and also some of dijasktras.Also in the other hard dose question I had totally searched video on yt and if I couldn't find videos      on YT I just put the question  on grok from where it gave prompt to recieve yt video recommendations for each question to understand the theory. For medium       dose question almost all questions were easy since it was like done some questions like q-5 which I had no knowledge upon upon surfing I got the formula and       later used it for coding.
-## Resources Used-->
-  Used a lot YT videos which came a lot use 
 
