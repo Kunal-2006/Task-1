@@ -11,6 +11,26 @@
   I had a very good experience solving the task 1 for me though it was very challenging at the start but with time and logic it became easy leaving some questions.
   I have learnt a lot of new things and also gained some new perspectives. Doing the task 0 and task 1 was a lot fun by these tasks I again relearnt python which     i had forgotten since I learned when I was in 11-12th std.
 ## Theorams,Equations,Sketches used for solving the problems-->
+## Medium Dose Task 5: Quaternion Conversion
+Converts Earth’s Euler angles (yaw, pitch, roll) to Martian quaternions for Rover Brick.
+
+4. **Quaternion Components**  
+   - **Formulas**:  
+     - `w = cos(y/2) * cos(p/2) * cos(r/2) + sin(y/2) * sin(p/2) * sin(r/2)`  
+     - `x = sin(r/2) * cos(p/2) * cos(y/2) - cos(r/2) * sin(p/2) * sin(y/2)`  
+     - `y = cos(r/2) * sin(p/2) * cos(y/2) + sin(r/2) * cos(p/2) * sin(y/2)`  
+     - `z = cos(r/2) * cos(p/2) * sin(y/2) - sin(r/2) * sin(p/2) * cos(y/2)`  
+   - **Variables**:  
+     - `y`: Yaw (z-axis rotation, degrees, converted to radians).  
+     - `p`: Pitch (y-axis rotation, degrees, converted to radians).  
+     - `r`: Roll (x-axis rotation, degrees, converted to radians).  
+   - **Example (yaw = 90°, pitch = 0°, roll = 0°)**:  
+     - Half-angles: `  
+     - `w = cos(45°) * cos(0°) * cos(0°) + sin(45°) * sin(0°) * sin(0°) =
+     - `x = sin(0°) * cos(0°) * cos(45°) - cos(0°) * sin(0°) * sin(45°) = 
+     - `y = cos(0°) * sin(0°) * cos(45°) + sin(0°) * cos(0°) * sin(45°) = 
+     - `z = cos(0°) * cos(0°) * sin(45°) - sin(0°) * sin(0°) * cos(45°) = 
+   - **Purpose**: Converts 3D rotations to quaternions, avoiding gimbal lock.
 
 ## Challenges Faced-->
   Initially due to some pc error I couldn't dual boot laptop even after spending nights to do it I couldn't but later somehow I did it.
@@ -18,9 +38,9 @@
     question and also I didn't know GitHub. But with spending time watching videos on these topics reading from blogs and using ai tools to fins the theory on         particular questions it helped me understand these topics and hence I could solve majority questions of the task.
 ## Explain your Approach-->
    My approach was that during the initial days of task 1 I had discussed all questions with my friend which was like a overview and what i did was I would           first explore the links provided in document and see the videos and blogs related to it and see the cheat sheets of Linux and bash for the light dose
-    And finsihed the light dose.Then I started hard dose where what I used to do is like in 1 question I put Grid mapping in youtube  and later I saw videos on        BFS matrix type of questions and also some of dijasktras.Also in the other hard dose question I had totally searched video on yt and if I couldn't find videos      on YT I just put the question  on grok from where it gave prompt to recieve yt video recommendations for each question to understand the theory. For medium       dose question almost all questions were easy since it was like done some questions like q-5 which I had no knowledge upon upon surfing I got the formula and       later used it for coding.
+    And finsihed the light dose.Then I started hard dose where what I used to do is like in 1 question I put Grid mapping in youtube  and later I saw videos on        BFS matrix type of questions and also some of dijasktras.Also in the other hard dose question I had totally searched video on yt and if I couldn't find videos      on YT I just put the question  on grok from where it gave prompt to recieve yt video recommendations for each question to understand the theory. For medium       dose question almost all questions were easy since it was like done some questions like q-5 which I had no knowledge upon upon surfing I got the formula and       later used it for coding and with the help of AI tools aai tools rmeoved my syntax errors.
 ## Resources Used-->
-  Used a lot YT videos which came to a lot use.
+  Used a lot YT videos which came to a lot use AI tools also.
 #### 1. Light Dose
   1. Question 1
      Used Linux Terminal commands by which the desired output was found.
@@ -65,8 +85,9 @@
      
       
   #### 3. Hard Dose
-  1. Question 1
-  2. Question 2
+  1. Question 1 For question 1 open a file and get the valued of row clumn obstacles and matrix order and create the grid form that part make queue for enetring the valueson which step is taken and keep adding the value sin queue till the final destination is reavhed.
+  2. For travelling use the method of direction ratios such that movement can be done 1 at atime and also keep a track of the blocks if there are in matrix,not on obstacles and also dont visit the visted blocks too.
+  3. Question 2
      1. Step 1
         Import Libraries necessary for the task such as math module,cv2 module and numpy and module and name it as np for easier usage.
       2. Step 2
@@ -77,7 +98,7 @@
             Now by distance function we want to calculate its distance from the camera so for that we must first now the focal length formula and also the distance formula for that we will be entering the width of the arrow in the photo ad actualwidth_px and save the 17cm as real arrow width and also make the FOV as 55 degree.
        5. Step 5
               By using the formulas of Diagonal resolution ,focal length find the distance formula but first convert all the angle which is degree to radian by using math 
-  3. Question 3
+  4. Question 3
            Understood how fall back and sequence node work ,fall back node works will stop when next child gets to be successful if not successful then it will be a failure.
            Understood that Wequence Node works as if it just stops at first child if bwing success or failure.
 
