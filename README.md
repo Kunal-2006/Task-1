@@ -85,7 +85,7 @@ Converts Earth’s Euler angles (yaw, pitch, roll) to Martian quaternions for Ro
      
       
   #### 3. Hard Dose
-  1. Question 1 For question 1 open a file and get the valued of row clumn obstacles and matrix order and create the grid form that part make queue for enetring the valueson which step is taken and keep adding the value sin queue till the final destination is reavhed.
+  1. Question 1 For question 1 open a file and get the valued of row clumn obstacles and matrix order and create the grid form that part make queue for enetring the valueson which step is taken and keep adding the value sin queue till the final destination is reavhed. We are using BFS to do this code.
   2. For travelling use the method of direction ratios such that movement can be done 1 at atime and also keep a track of the blocks if there are in matrix,not on obstacles and also dont visit the visted blocks too.
   3. Question 2
      1. Step 1
@@ -101,5 +101,6 @@ Converts Earth’s Euler angles (yaw, pitch, roll) to Martian quaternions for Ro
   4. Question 3
            Understood how fall back and sequence node work ,fall back node works will stop when next child gets to be successful if not successful then it will be a failure.
            Understood that Wequence Node works as if it just stops at first child if bwing success or failure.
-
+#Participation in Maze rover competition
+the competition is very good though there were less people than expected though i coudnt understand what was going something womething i knew which ingnited sparks for me take inrtrest in ROS more.Though we were the team with least duration of getting out of the maze by ourselves manually autonmaous mode was very bad for use since we didnt know any thing about it.
 
