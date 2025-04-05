@@ -4,8 +4,8 @@ touch log1.txt log2.txt log3.txt
 mv log1.txt mission_log.txt
 find /path/to/search “*.log” 
 cat mission_log.txt
-grep 'ERROR' .mission_log.txt
-grep -c .mission_log.txt
+grep 'ERROR' mission_log.txt
+grep -c mission_log.txt
 date
 lscpu
 sudo shutdown -h +10
