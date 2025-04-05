@@ -67,6 +67,14 @@
   #### 3. Hard Dose
   1. Question 1
   2. Question 2
-  3. Question 3
+     1. Step 1
+        Import Libraries necessary for the task such as math module,cv2 module and numpy and module and name it as np for easier usage.
+      2. Step 2
+         Create an function to detect the arrow which has been used so for that first convert the image to grayscale since it helps to do easy processing and also we will be applying gausian blur to reduce noise and smooth edges.
+      3. Step 3
+           Use Canny Edge detector to find the contour the shpaes similar to required arrow shape and apply the polygon with 7 sided since the arrow contains of 7 vertices and then if found an 7 vertice polygon assume it to be an arrow and create an bounding rectangle arounfd it .
+      4. Step 4
+            Now by distance function we want to calculate its distance from the camera so for that we must first now the focal length formula and also the distance formula for that we will be entering the width of the arrow in the photo ad actualwidth_px and save the 17cm as real
+  4. Question 3
 
 
