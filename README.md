@@ -14,117 +14,17 @@
      Used Bash coding for coding the required and desired commands. 
  #### 2. Medium Dose
   1. Question 1
-      
+       
   3. Question 2
-  4. Question 3
+             Here in this question we have used python to solve the program by first creating an dictionary of the all the               morse code alphabets where the key in morse code alphabets and item is the english alphabets.
+     Step-1 So we have an file named as Morse.txt which will be opening and for the data in the file we first read the                  whole code and also strip the spaces which occur between the characters.
+     Step-2 We will now first close the file since saved all the data and then split the data in words by split function                 and then with help of split function to split the letters from each other.
+     Step-3 With the help of the for loop we will take the item according to the morse code key and append th english                   alphabet into a empty list and that is th final code needed.
      
-  5. Question 4
-    
-    
-       file = open("log.txt", "r")
-      data = []
-      for line in file:
-      if line.strip():
-        data.append(float(line.strip()))
-      file.close()
-      *Muchiko filter = Moving Average of 3 values*
-      def muchiko(data):
-        result = []
-        n = len(data)
-        for i in range(1, n - 1):
-          a = data[i - 1]
-          b = data[i]
-          c = data[i + 1]
-        avg = (a + b + c) / 3
-        result.append(avg)
-        return result
-
-    Sanchiko filter = Median of 3 values
-    def sanchiko(data):
-      result = []
-      n = len(data)
-      for i in range(1, n - 1):
-        a = data[i - 1]
-        b = data[i]
-        c = data[i + 1]
-        values = [a, b, c]
-        values.sort()
-        median = values[1]
-        result.append(median)
-    return result
-
-    ####Apply filters
-    muchiko_filter = muchiko(data)
-    sanchiko_filter = sanchiko(data)
-
-    ####Print individual filter results
-    print("Muchiko Filter:")
-    for d in muchiko_filter:
-      print(d)
-
-    ####print("Sanchiko Filter:")
-    for d in sanchiko_filter:
-      print(d)
-
-    Hybrid 1 = Sanchiko(Muchiko(data))
-    hybrid1 = sanchiko(muchiko_filter)
-    print("Hybrid 1 (Sanchiko on Muchiko):")
-    for d in hybrid1:
-      print(d)
-
-    Hybrid 2 = Muchiko(Sanchiko(data))
-    hybrid2 = muchiko(sanchiko_filter)
-    print("Hybrid 2 (Muchiko on Sanchiko):")
-    for d in hybrid2:
-    print(d)
-
-  5. Question 5   
-
-    Function to convert Euler angles (yaw, pitch, roll) to quaternion
-    import math
-    def quaternion(yaw, pitch, roll):
-    #### Convert degrees to radians
-    yaw_rad = math.radians(yaw)    ### Rotation around z-axis
-    pitch_rad = math.radians(pitch) ### Rotation around y-axis
-    roll_rad = math.radians(roll)  ### Rotation around x-axis
-    
-    ### Half-angles for quaternion formula
-    cy = math.cos(yaw_rad / 2)    ### Cosine of yaw/2
-    sy = math.sin(yaw_rad / 2)    ### Sine of yaw/2
-    cp = math.cos(pitch_rad / 2)
-    sp = math.sin(pitch_rad / 2)
-    cr = math.cos(roll_rad / 2)
-    sr = math.sin(roll_rad / 2)
-    
-    ### Quaternion components (w, x, y, z)
-    w = cr * cp * cy + sr * sp * sy  /// Real part
-    x = sr * cp * cy - cr * sp * sy  ### x-axis component
-    y = cr * sp * cy + sr * cp * sy  ### y-axis component
-    z = cr * cp * sy - sr * sp * cy  ### z-axis component
-    
-    ### Return as list, rounded for clarity
-    return [round(w, 4), round(x, 4), round(y, 4), round(z, 4)]
-
-    ### Test the function
-    yaw = 0    ### Example: no rotation
-    pitch = 0
-    roll = 0
-    result = quaternion(yaw, pitch, roll)
-
-    ### Print results
-    print("Converting Earth Rotation to Martian Quaternion:")
-    print(f"Input (Yaw, Pitch, Roll): ({yaw}°, {pitch}°, {roll}°)")
-    print(f"Quaternion [w, x, y, z]: {result}")
-
-    ### Additional test with rotation
-    yaw_test = 90  # 90° yaw
-    pitch_test = 0
-    roll_test = 0
-    result_test = quaternion(yaw_test, pitch_test, roll_test)
-    print("\nTest with 90° Yaw:")
-    print(f"Input: ({yaw_test}°, {pitch_test}°, {roll_test}°)")
-    print(f"Quaternion [w, x, y, z]: {result_test}")
-    print("Brick is ready for Mars with Muchiko and Sanchiko!")
+  4. Question 3
+           Here in this question I have used Pyhton to solve the problem statement created an list where the data is present which has to be 
+  6. Question 4
+  7. Question 5   
   #### 3. Hard Dose
   1. Question 1
   2. Question 2
