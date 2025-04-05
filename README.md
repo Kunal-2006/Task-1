@@ -143,4 +143,5 @@
    My approach was that during the initial days of task 1 I had discussed all questions with my friend which was like a overview and what i did was I would           first explore the links provided in document and see the videos and blogs related to it and see the cheat sheets of Linux and bash for the light dose
     And finsihed the light dose.Then I started hard dose where what I used to do is like in 1 question I put Grid mapping in youtube  and later I saw videos on        BFS matrix type of questions and also some of dijasktras.Also in the other hard dose question I had totally searched video on yt and if I couldn't find videos      on YT I just put the question  on grok from where it gave prompt to recieve yt video recommendations for each question to understand the theory. For medium       dose question almost all questions were easy since it was like done some questions like q-5 which I had no knowledge upon upon surfing I got the formula and       later used it for coding.
 ## Resources Used-->
+  Used a lot YT videos which came a lot use 
 
