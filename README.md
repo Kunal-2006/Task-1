@@ -43,7 +43,18 @@
          The data is is then appended in the list new.
   4. Question 4
          Here in the problem statement we have again used Pyhton programming language.
-  5. Question 5
+       Step-1
+         first we will open log.txt as said in the question using r mode which is the read mode and create an empty list data where we will again like earlier strip the file to remove the sapces adn then store all data of the log.txt in data list.
+        Step-2
+          We will now define Muchiko who just finds the avg of data in the list data and append the avg in result list which is created before.
+         Step-3
+           We will now define Sanchiko who takes data and then sorts the data according to the numerical order then find the median of the 3 values in list and prints the value.
+          Step-4
+            We can create some hybrids like Sanchiko of Muchiko filter whih first find the avg of the values and then finds 3 averages and appends in the list which is when put in to Sanchiko filter where the again the avg list is sorted and now the values are arranged and the median value is given output.
+          Step-5
+             We can  create one more hybrid where first we can take the medians by arranging the numbers and then finsing the median and after finding the median the avg is found directly this is called Muchiko sanchiiko Hybrid.
+     Out of these Sanchiko(muchiko filter is the best hybrid since it gives best balance of spike protection and smoothing.
+  6. Question 5
          Here in the problem statement again pyhton programming language is used where
      Step-1
        The values of yaw,ptch,roll are taken from the user who has used the function from where first the angle is converted to radians.
